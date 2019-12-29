@@ -129,7 +129,6 @@ function getLocation(city,request, response) {
               });
           });
       } else {
-        console.log
         response.status(200).json(data.rows[0]);
         // console.log('data in database',data.rows[0]);
        //return data.rows[0];
